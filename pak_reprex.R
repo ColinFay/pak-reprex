@@ -45,7 +45,7 @@ c(
   "yaml",
   "zip"
 ) -> all_deps
-
+options(pkg.platforms = "source")
 raw_output <- pak:::pkg_sysreqs(
   pkg = all_deps,
   sysreqs_platform = "debian"
