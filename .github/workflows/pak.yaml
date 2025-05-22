@@ -39,5 +39,4 @@ jobs:
           use-public-rspm: true
 
       - name: Run pak
-        run: pak_reprex.R
-        shell: Rscript {0}
+        run: Rscript pak_reprex.R
